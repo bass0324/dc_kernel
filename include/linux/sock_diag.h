@@ -2,6 +2,7 @@
 #define __SOCK_DIAG_H__
 
 #define SOCK_DIAG_BY_FAMILY 20
+#define SOCK_DESTROY_BACKPORT 21
 
 struct sk_buff;
 struct nlmsghdr;
